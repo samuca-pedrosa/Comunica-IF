@@ -2,6 +2,8 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  assetPrefix: '/Comunica-If/',
+  basePath: '/Comunica-If',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -11,7 +13,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   }
-  // Remove esta linha: basePath: process.env.NODE_ENV === 'production' ? '/COMUNICA-IF' : ''
 }
 
 export default nextConfig
