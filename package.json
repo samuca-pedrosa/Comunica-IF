@@ -8,7 +8,7 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -t true"
+    "deploy": "next build && echo. > out/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
