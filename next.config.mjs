@@ -10,8 +10,8 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-  },
-  basePath: process.env.NODE_ENV === 'production' ? '/COMUNICA-IF' : ''
+  }
+  // Remove esta linha: basePath: process.env.NODE_ENV === 'production' ? '/COMUNICA-IF' : ''
 }
 
 export default nextConfig
