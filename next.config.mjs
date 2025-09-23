@@ -2,8 +2,6 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  assetPrefix: '/Comunica-If/',
-  basePath: '/Comunica-If',
   eslint: {
     ignoreDuringBuilds: true,
   },
