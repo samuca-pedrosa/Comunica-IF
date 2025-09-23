@@ -2,7 +2,7 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samuca-pedrosa.github.io/COMUNICA-IFCM",
+  "homepage": "https://samuca-pedrosa.github.io/Comunica-IF",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
